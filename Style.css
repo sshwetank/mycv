@@ -1,0 +1,134 @@
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    margin: 3.2rem, auto, 0, auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 5rem auto 4rem auto;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.round {
+    border-radius: 50%;
+    height: 200px;
+}
+
+.square {
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+a {
+    color: #11999E;
+}
+
+.skill-row {
+    width: 35%;
+    margin: 1rem auto 1rem auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer {
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+
+.middle-container {
+    margin-top: 4rem;
+}
+
+.bottom-container {
+    background-color: #11999E;
+}
+
+hr {
+    color: cadetblue;
+    border: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto 100px auto;
+}
+
+.middle {
+    margin: 1rem auto 4rem auto;
+    width: 30%;
+    font-weight: bold;
+}
+
+.link {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66bfbf);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66bfbf);
+    background-image: -ms-linear-gradient(top, #66BFBF, #1E62D0);
+    background-image: -o-linear-gradient(top, #66BFBF, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 30px;
+}
+
+.test {
+    font-weight: bold;
+}
